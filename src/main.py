@@ -1,5 +1,7 @@
-import sys
-sys.path.append('~/work/code/python/udemy_python_100_days_of_code/day11/blackjack')
+import sys, os
+#sys.path.append('~/work/code/python/udemy_python_100_days_of_code/day11/blackjack')
+
+sys.path.append(os.getcwd())
 from game import game
 from logger import mylogger
 from src.art import logo
